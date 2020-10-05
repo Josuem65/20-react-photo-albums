@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  margin: 0 0 5%;
+}
+h3 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+  text-shadow: -2px 2px 5px #ffffff, 2px 2px 5px #ffffff, 2px -2px 5px #ffffff,
+    -2px -2px 5px #ffffff;
+  margin: 0 0 1.5%;
+}
+.albumContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.multiImageContainer {
+  display: flex;
+  flex-flow: wrap;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.singleImageContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 25%;
+  margin: 2.5% 0;
+}
+.image {
+  width: 225px;
+  height: 300px;
+  border-radius: 4%;
+}
+.image:hover {
+  cursor: pointer;
+}
+.singleImageContainer > span {
+  font-size: 18px;
+  margin: 5% 0 0;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+}
+.zoomedImg {
+  width: 25%;
+  border-radius: 4%;
+}
